@@ -1,0 +1,15 @@
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\UnitTestLoginPage.dll.config
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\UnitTestLoginPage.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\UnitTestLoginPage.pdb
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\obj\Debug\UnitTestLoginPage.csproj.AssemblyReference.cache
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\obj\Debug\UnitTestLoginPage.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\obj\Debug\UnitTestLoginPage.csproj.CopyComplete
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\obj\Debug\UnitTestLoginPage.dll
+C:\Users\Matthew\source\repos\moLoginPage\UnitTestLoginPage\obj\Debug\UnitTestLoginPage.pdb

@@ -1,0 +1,56 @@
+﻿<Window x:Class="BookStoreGUI.UserInfoAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreGUI"
+        mc:Ignorable="d"
+        Title="UserInfoAdmin" Height="500" Width="1000">
+    <Grid Margin="38,0,511,-1.5">
+        <Label x:Name="textAddUserID" Grid.Row="0" Margin="6,41,33,0" Height="25" VerticalAlignment="Top" Content="UserID"/>
+        <TextBox Name="rowAddUserID" Grid.Row="0" Margin="0,41,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+        <Label x:Name="textAddUserName" Grid.Row="0" Margin="6,73,33,0" Height="35" VerticalAlignment="Top" Content="UserName"/>
+        <TextBox Name="rowAddUserName" Grid.Row="0" Margin="0,73,33,0" Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+        <Label x:Name="textAddPassword" Grid.Row="0" Margin="6,104,33,0" Height="26" VerticalAlignment="Top" Content="Password"/>
+        <TextBox Name="rowAddPassword" Grid.Row="0" Margin="0,104,33,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+        <Label x:Name="textAddType" Grid.Row="0" Margin="6,136,33,0" Height="25" VerticalAlignment="Top" Content="Type"/>
+        <TextBox Name="rowAddType" Grid.Row="0" Margin="0,136,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+        <Label x:Name="textAddIfManager" Grid.Row="0" Margin="6,167,33,0" Height="30" VerticalAlignment="Top" Content="Manager"/>
+        <TextBox Name="rowAddIfManager" Grid.Row="0" Margin="0,167,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+        <Label x:Name="textAddFullName" Grid.Row="0" Margin="6,199,33,0" Height="34" VerticalAlignment="Top" Content="FullName"/>
+        <TextBox Name="rowAddFullName" Grid.Row="0" Margin="0,199,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+        <Button x:Name="addButton" Click="addButton_Click" IsDefault="True" MinWidth="80" Margin="204,256,135,0" Content="Add User" Height="29" VerticalAlignment="Top"/>
+
+        <Label Name="textDelUser" Grid.Row="0" Margin="7,370,33,0" Height="29" VerticalAlignment="Top">UserID</Label>
+        <TextBox Name="rowDeleteThroughUserID" Grid.Row="0" Margin="0,370,34,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Right" Width="296"/>
+        <Button x:Name="deleteButton" Click="deleteButton_Click" IsDefault="True" MinWidth="80" Margin="205,414,135,0" Content="Delete User" Height="34" VerticalAlignment="Top"/>
+
+
+        <Grid HorizontalAlignment="Left" Height="474" Margin="477,3,-499,-3" VerticalAlignment="Top" Width="468">
+            <Label Content="Edit User Information" HorizontalAlignment="Left" Margin="168,16,0,0" VerticalAlignment="Top" Height="26" Width="126"/>
+
+            <Label x:Name="textEditThroughUserID" Grid.Row="0" Margin="10,45,33,0" Height="23" VerticalAlignment="Top" Content="UserID"/>
+            <TextBox Name="editThroughUserID" Grid.Row="0" Margin="0,47,33,0" Height="23" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+            <Button Name="findButton" Content="Find User" Click="findButton_Click" HorizontalAlignment="Left" Height="28" Margin="243,75,0,0" VerticalAlignment="Top" Width="111"/>
+
+            <Label x:Name="textEditUserName" Grid.Row="0" Margin="10,119,29,0" Height="35" VerticalAlignment="Top" Content="UserName"/>
+            <TextBox Name="rowEditUserName" Grid.Row="0" Margin="0,119,33,0" Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+            <Label x:Name="textEditPassword" Grid.Row="0" Margin="10,169,29,0" Height="26" VerticalAlignment="Top" Content="Password"/>
+            <TextBox Name="rowEditPassword" Grid.Row="0" Margin="0,169,33,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+            <Label x:Name="textEditType" Grid.Row="0" Margin="10,223,29,0" Height="25" VerticalAlignment="Top" Content="Type"/>
+            <TextBox Name="rowEditType" Grid.Row="0" Margin="0,223,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+            <Label x:Name="textEditIfManager" Grid.Row="0" Margin="10,269,29,0" Height="30" VerticalAlignment="Top" Content="Manager"/>
+            <TextBox Name="rowEditIfManager" Grid.Row="0" Margin="0,269,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+            <Label x:Name="textEditFullName" Grid.Row="0" Margin="10,320,29,0" Height="34" VerticalAlignment="Top" Content="FullName"/>
+            <TextBox Name="rowEditFullName" Grid.Row="0" Margin="0,320,33,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" Width="297"/>
+
+            <Button Name="editButton" Content="Edit user" Click="editButton_Click" HorizontalAlignment="Left" Height="30" Margin="243,373,0,0" VerticalAlignment="Top" Width="111"/>
+
+            <Button x:Name="exit" Click="exit_Click" IsDefault="True" MinWidth="80"  Content="Exit" Height="26" VerticalAlignment="Top" Margin="358,422,10,0"/>
+
+        </Grid>
+        <Label Content="       Add A User" HorizontalAlignment="Left" Height="31" Margin="156,10,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Delete A User" HorizontalAlignment="Left" Height="26" Margin="173,339,0,0" VerticalAlignment="Top" Width="119"/>
+
+    </Grid>
+</Window>

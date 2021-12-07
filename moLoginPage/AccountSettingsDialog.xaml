@@ -1,0 +1,53 @@
+﻿<Window x:Class="BookStoreGUI.AccountSettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreGUI"
+        mc:Ignorable="d"
+        Title="Account Settings" Height="400" Width="600">
+    <Grid RenderTransformOrigin="0.503,0.596" Margin="0,0,17,17">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="479*"/>
+            <ColumnDefinition Width="113*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Width="592">
+            <Button Name="usernameButton" Click="usernameButton_Click" MinWidth="80" Margin="60,10,5,5">Change Username</Button>
+            <Button Name="passwordButton" Click="passwordButton_Click" MinWidth="80" Margin="20,10,5,5">Change Password</Button>
+            <Button Name="fullNameButton" Click="fullNameButton_Click" MinWidth="80" Margin="20,10,5,5">Change Full Name</Button>
+            <Button Name="deleteAccountButton" Click="deleteAccountButton_Click" MinWidth="80" Margin="20,10,5,5">Delete Account</Button>
+        </StackPanel>
+
+        <TextBlock Padding="30,15,30,30" FontSize="15" Grid.Column="1" Grid.Row="3" Text="Purchase History"></TextBlock>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center"
+            x:Name="LayoutRoot" DataContext="{Binding}"
+	     VerticalAlignment="Bottom" Height="auto" Width="auto">
+            <DataGrid AutoGenerateColumns="False" x:Name="Favorites" RowDetailsVisibilityMode="VisibleWhenSelected"
+            ItemsSource="{Binding}" Height="254" CanUserAddRows="false"
+		    Width="537" HorizontalAlignment="Left" Margin="20,0,0,10"
+		    SelectionMode="Single">
+                <DataGrid.Columns>
+                    <DataGridTextColumn
+			    x:Name="titleColumn" Binding="{Binding Title}"
+			    Header="Title" Width="50*" />
+                    <DataGridTextColumn
+			    x:Name="authorColumn" Binding="{Binding Author}"
+			    Header="Author" Width="18*" />
+                    <DataGridTextColumn
+			    x:Name="priceColumn" Binding="{Binding Price}"
+			    Header="Price" Width="12*" CanUserSort="False" />
+                    <DataGridTextColumn
+			    x:Name="yearColumn" Binding="{Binding Year}"
+			    Header="Year" Width="8*" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>
