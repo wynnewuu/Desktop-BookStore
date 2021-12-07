@@ -22,4 +22,5 @@ User Manage:Managers can login and manage existing users or add new users
 
 
 Here is a video demonstrating the Bookstore System        
-[![Everything Is AWESOME](https://imgur.com/B49zNxo)](https://www.youtube.com/watch?v=-dGXkLvUpZQ "Everything Is AWESOME")
+[![Everything Is AWESOME](https://imgur.com/B49zNxo.png)](https://www.youtube.com/watch?v=-dGXkLvUpZQ "Everything Is AWESOME")
+
