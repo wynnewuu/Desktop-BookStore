@@ -20,8 +20,8 @@ Book Manage:Managers can login and manage books in stock
 User Manage:Managers can login and manage existing users or add new users                       
 
 
-**Scrum Master  **       
-Wynne Wu                   
+**Scrum Master**       
+Wynne Wu            
 
 **Team Members**        
 Matt O’Brien      
