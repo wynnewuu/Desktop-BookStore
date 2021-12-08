@@ -23,7 +23,7 @@ User Manage:Managers can login and manage existing users or add new users
 **Scrum Master  **       
 Wynne Wu                   
 
-**Team Members**
+**Team Members**        
 Matt O’Brien      
 Anthony Sholy     
 Weichong Wu       
