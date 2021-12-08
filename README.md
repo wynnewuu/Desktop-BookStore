@@ -19,13 +19,21 @@ Admin: Managers can login for modifying the database
 Book Manage:Managers can login and manage books in stock                                            
 User Manage:Managers can login and manage existing users or add new users                       
 
-This is a group project for Agile Software Development course that was finished with other group members.            
 
-Scrum Master         
+**Scrum Master  **       
 Wynne Wu                   
 
-Team Members
-Matt O’Brien, Anthony Sholy, Weichong Wu, Kevin Wei, Xiaoshuai Geng, Eris Li, Alex Enache, Ben Renaud, Ziqing Gong, Darren Fernandes
+**Team Members**
+Matt O’Brien      
+Anthony Sholy     
+Weichong Wu       
+Kevin Wei       
+Xiaoshuai Geng      
+Eris Li           
+Alex Enache         
+Ben Renaud        
+Ziqing Gong       
+Darren Fernandes      
 
 Here is a video demonstrating the Bookstore System        
 [![Everything Is AWESOME](https://imgur.com/B49zNxo.png)](https://www.youtube.com/watch?v=-dGXkLvUpZQ "Everything Is AWESOME")
