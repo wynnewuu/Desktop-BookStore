@@ -1,5 +1,5 @@
 # Desktop-BookStore
-This is a Unity project. To run the game all you have to do is open it using Unity.       
+   
 
 The purpose of our online bookstore system is to create a convenient user-friendly system that allows users to search and purchase a book online based on the book category, title, author, price, and subject. The book selected by the user can be put into a wish list or cart that allows the user to purchase on the next visit. Before the purchase the book that is selected by the user will be displayed in a tabular format that allows the user to see the information regarding the book. The purchase can be made using the credit card payment method. The major finding regarding this online bookstore system is that this is more preferred by users as it has more advantages over retail bookstores, such as the ease of use, convenient to find the desired book and save customers from going out to a bookstore.
 
