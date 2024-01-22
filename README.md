@@ -4,7 +4,8 @@ The purpose of our online bookstore system is to create a convenient user-friend
 
 
 Here are list of our main functionality for our bookstore system: 
-User registration or login: Existing users can login or new user can easily register the account by providing their information                       
+
+User registration or login: Existing users can login or new user can easily register the account by providing their information         
 Account Settings: Existing users can login and change the account settings including change password, username and delete account, users can view purchase history                
 Insights: Users can view list of top selling books            
 Add book: Users can add book to the shopping cart                   
